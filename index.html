@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Your Bill App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Split Your Bill</h1>
+
+        <form action="">
+            <label for="bill-amount">Enter You Bill in Dollors:</label>
+            <input type="number" id="bill-amount" required> <br>
+            <label for="persons">Enter number of people:</label>
+            <input type="number" id="persons" required> <br>
+            <button id="splitButton">Split My Bill</button>
+            <div id="splitamount" hidden>
+                <p>Amount per person:<span id="result"></span></p>
+            </div>
+            
+
+            
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
